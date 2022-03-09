@@ -5,3 +5,9 @@
 .intro-title {
   color: red;
 }
+
+body {
+  background-image: url("./assets/Pastel-background.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
