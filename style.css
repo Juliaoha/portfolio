@@ -1,13 +1,46 @@
-.hamburger-menu-button {
-  color: rgb(226, 43, 171);
-}
-
-.intro-title {
+/* .intro-title {
   color: red;
 }
 
-body {
+.container {
   background-image: url("./assets/Pastel-background.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+}
+
+.inner-container {
+  height: 100%;
+  background-color: white;
+  margin: 50px;
+}
+
+body,
+html {
+  height: 100%;
+} */
+
+html {
+  height: 100%;
+}
+
+body {
+  background: url("./assets/Pastel-background.jpeg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-container {
+  background-color: white;
+  height: 92%;
+  width: 85%;
 }
