@@ -4,28 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Portfolio Julia Ohannessian</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
-    <header>
-      <button class="hamburger-menu-button">Menu</button>
-      <i class="fa fa-reorder"></i>
-      <i class="fa fa-close"></i>
-      <i class="fa fa-github"></i>
-      <i class="fa fa-linkedin-square"></i>
-      <i class="fa fa-envelope-open"></i>
-      <ul class="socials">
-        <li class="social-icons">
-          <a>Linkedin</a>
-        </li>
-        <li class="social-icons">
-          <a>Github</a>
-        </li>
-      </ul>
-    </header>
-    <nav>
+    <div class="container">
+      <div class="inner-container">
+        <div>
+          <header>
+            <div><i class="fa fa-reorder icons"></i></div>
+            <div>
+              <i class="fa fa-github icons github-icon"></i>
+              <i class="fa fa-linkedin-square icons"></i>
+            </div>
+          </header>
+          <!-- <nav>
       <button class="close-button"><span>x</span></button>
       <button class="email-icon"><span>email</span></button>
       <ul class="menu">
@@ -42,20 +45,31 @@
           <a href=""blog.html>Blog</a>
         </li>
       </ul>
-    </nav>
-    <div class="content-container">
-      <section>
-          <div class="main-content">
-            <h1 class="intro-title">A little about me...</h1>
-            <p class="intro-paragraph">Vestibulum ac nulla lobortis, posuere leo eget, scelerisque velit. Nullam lobortis at magna at viverra. Fusce et ex et dui fermentum molestie non in libero. Fusce sit amet lorem urna. Cras ex justo, posuere in convallis in, commodo et massa. Sed feugiat pharetra sapien, sit amet sollicitudin eros aliquam eu. Donec quis neque quam.</p>
-            <a href="projects.html">Projects</a>
+    </nav> -->
+          <div class="content-container">
+            <section>
+              <div class="main-content">
+                <h1 class="intro-title">
+                  A little about <span class="underline-me">me</span>
+                </h1>
+                <p class="intro-paragraph">
+                  I was born in Sydney, Australia. I went to NIDA and became a
+                  professional actor. If you don't believe me
+                  <span class="bold-dev">click here</span>. Now, I'm a Software
+                  Developer. I believe in the power of user interactivity and
+                  engagement. I'm passionate about creating a meaningful user
+                  experience. I changed careers because the future of tech
+                  inspires me. And I am grateful to be a part of that future.
+                </p>
+                <a class="projects-button" href="projects.html">Projects</a>
+              </div>
+            </section>
           </div>
-      </section>
-    </div>
-    <footer>
-      <h1>copyright</h1>
+        </div>
+        <footer>
+          <p class="copyright">© Julia Ohannessian 2022</p>
+        </footer>
       </div>
-    </footer>
     </div>
   </body>
 </html>
