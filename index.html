@@ -21,13 +21,13 @@
     <div class="container">
       <div class="inner-container">
         <div>
-          <header>
+          <nav class="home-bar">
             <div><i class="fa fa-reorder icons"></i></div>
             <div>
               <i class="fa fa-github icons github-icon"></i>
               <i class="fa fa-linkedin-square icons"></i>
             </div>
-          </header>
+          </nav>
           <!-- <nav>
             <button class="close-button"><span>x</span></button>
             <button class="email-icon"><span>email</span></button>
@@ -47,19 +47,31 @@
             </ul>
           </nav> -->
           <div class="content-container">
-            <section>
-              <div class="main-content">
+            <section class="main-content">
+              <div class="intro-content">
+                <h1 class="intro-title">Hello,</h1>
                 <h1 class="intro-title">
-                  Hello, my name is <span class="underline-name">Julia</span>
+                  my name is <span class="underline-name">Julia</span>
                 </h1>
-                <p class="intro-paragraph">
+                <p id="top-paragraph" class="intro-paragraph">
                   I'm a former professional actor turned
-                  <span class="bold-dev">Software Dev</span>. My passion is to
-                  build unique user experiences And to make tech more accessible
-                  for all.
+                  <span class="bold-dev">Software Dev</span>
+                  .
                 </p>
-                <a class="about-button" href="about.html">About</a>
+                <p class="intro-paragraph">
+                  My passion is to build unique user experiences
+                </p>
+                <p class="intro-paragraph">
+                  And to make tech more accessible for all.
+                </p>
               </div>
+              <button
+                id="about-button"
+                class="button"
+                onclick="window.location.href='about.html'"
+              >
+                About
+              </button>
             </section>
           </div>
         </div>

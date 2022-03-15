@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
@@ -10,7 +11,8 @@ body {
   margin: 0;
 }
 
-p {
+p,
+h1 {
   margin: 0;
 }
 
@@ -34,7 +36,7 @@ p {
   justify-content: space-between;
 }
 
-header {
+nav {
   margin-top: 10px;
   border: 3px solid black;
   margin-left: 10px;
@@ -52,12 +54,14 @@ header {
 }
 
 .intro-title {
-  font-family: "Quicksand", sans-serif;
   font-size: 35px;
   padding-left: 15px;
   padding-right: 15px;
-  text-align: justify;
   word-break: keep-all;
+}
+
+#top-paragraph {
+  margin-top: 33px;
 }
 
 .underline-name {
@@ -66,13 +70,13 @@ header {
 }
 
 .intro-paragraph {
-  font-family: "Quicksand", sans-serif;
   font-size: 18px;
   color: #6b6b6b;
-  text-align: justify;
   padding-left: 15px;
   padding-right: 15px;
+  margin-top: 15px;
 }
+
 .bold-dev {
   font-weight: bold;
 }
@@ -88,36 +92,13 @@ footer {
   font-size: 12px;
   text-align: center;
   bottom: 0;
-  font-family: "Quicksand", sans-serif;
 }
 
-.about-button {
-  padding: 5px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border: 2px solid black;
+#about-button {
   background: #dfe7fd;
-  font-family: "Quicksand", sans-serif;
-  font-size: 14px;
-  color: black;
-  text-decoration: none;
-  position: absolute;
-  right: 245px;
-  bottom: 300px;
 }
-.projects-button {
-  padding: 5px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border: 2px solid black;
+#projects-button {
   background: #f8f1c7;
-  font-family: "Quicksand", sans-serif;
-  font-size: 14px;
-  color: black;
-  text-decoration: none;
-  position: absolute;
-  right: 245px;
-  bottom: 300px;
 }
 
 .underline-me {
@@ -125,19 +106,17 @@ footer {
   text-decoration-color: #dfe7fd;
 }
 
-.blog-button {
+.button {
   padding: 5px;
   padding-left: 25px;
   padding-right: 25px;
   border: 2px solid black;
-  background: #e2ece9;
-  font-family: "Quicksand", sans-serif;
   font-size: 14px;
   color: black;
   text-decoration: none;
-  position: absolute;
-  right: 245px;
-  bottom: 300px;
+  margin-top: 33px;
+  margin-left: 15px;
+  width: 100px;
 }
 
 .underline-jects {
@@ -145,22 +124,35 @@ footer {
   text-decoration-color: #f8f1c7;
 }
 
-.home-button {
-  padding: 5px;
-  padding-left: 25px;
-  padding-right: 25px;
-  border: 2px solid black;
+#blog-button {
+  background: #e2ece9;
+}
+
+#home-button {
   background: #fde2e4;
-  font-family: "Quicksand", sans-serif;
-  font-size: 14px;
-  color: black;
-  text-decoration: none;
-  position: absolute;
-  right: 245px;
-  bottom: 300px;
 }
 
 .underline-blo {
   text-decoration: underline;
   text-decoration-color: #e2ece9;
+}
+
+.main-content {
+  margin-top: 130px;
+}
+
+.home-bar {
+  background-color: #fde2e4;
+}
+
+.about-bar {
+  background-color: #dfe7fd;
+}
+
+.projects-bar {
+  background-color: #f8f1c7;
+}
+
+.blog-bar {
+  background-color: #e2ece9;
 }
