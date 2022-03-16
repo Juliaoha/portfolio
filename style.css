@@ -11,13 +11,48 @@ body {
   margin: 0;
 }
 
+button {
+  font-family: "Quicksand", sans-serif;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
 p,
-h1 {
+h1,
+ul {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+a:visited {
+  color: inherit;
+}
+
+a:hover {
+  color: black;
+}
+
+.grow {
+  transition: all 0.2s ease-in-out;
+}
+
+.grow:hover {
+  transform: scale(1.3);
 }
 
 .icons {
   font-size: 25px;
+}
+
+.icons-container {
+  z-index: 100;
 }
 
 .container {
@@ -98,7 +133,7 @@ footer {
   background: #dfe7fd;
 }
 #projects-button {
-  background: #f8f1c7;
+  background: rgba(248, 241, 199, 0.55);
 }
 
 .underline-me {
@@ -117,6 +152,7 @@ footer {
   margin-top: 33px;
   margin-left: 15px;
   width: 100px;
+  cursor: pointer;
 }
 
 .underline-jects {
@@ -150,9 +186,105 @@ footer {
 }
 
 .projects-bar {
-  background-color: #f8f1c7;
+  background-color: rgba(248, 241, 199, 0.55);
 }
 
 .blog-bar {
   background-color: #e2ece9;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-items: center;
+  margin-top: 33px;
+}
+
+.project-button {
+  margin: 10px 10px;
+  width: 107px;
+  height: 95px;
+  border: 2px solid black;
+}
+
+.project-start {
+  justify-self: start;
+}
+
+.project-end {
+  justify-self: end;
+}
+
+#project-1-button-colour {
+  background-color: #f8f1c7;
+}
+
+#project-2-button-colour {
+  background-color: #e2ece9;
+}
+
+#project-3-button-colour {
+  background-color: #dfe7fd;
+}
+
+#project-4-button-colour {
+  background-color: #fde2e4;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.menu {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 150px;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
+.hamburger {
+  /* position: fixed; */
+  z-index: 100;
+  /* top: 1rem;
+  right: 1rem;
+  padding: 4px; */
+  /* border: black solid 1px;
+  background: white; */
+  cursor: pointer;
+}
+
+#home-menu {
+  background-color: #fde2e4;
+}
+
+#about-menu {
+  background-color: #dfe7fd;
+}
+
+#projects-menu {
+  background-color: rgba(248, 241, 199);
+}
+
+#blog-menu {
+  background-color: #e2ece9;
+}
+
+.nav-list {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 30px;
 }

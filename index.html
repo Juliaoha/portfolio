@@ -10,6 +10,10 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <title>Portfolio Julia Ohannessian</title>
     <link
       rel="stylesheet"
@@ -22,30 +26,35 @@
       <div class="inner-container">
         <div>
           <nav class="home-bar">
-            <div><i class="fa fa-reorder icons"></i></div>
-            <div>
-              <i class="fa fa-github icons github-icon"></i>
-              <i class="fa fa-linkedin-square icons"></i>
+            <div class="hamburger">
+              <i class="fa fa-reorder menuIcon icons menuIcon"></i>
+              <i class="fa fa-times icons close closeIcon"></i>
+            </div>
+            <div class="icons-container">
+              <a href="https://github.com/Juliaoha">
+                <i class="fa fa-github icons github-icon grow"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/julia-ohannessian/">
+                <i class="fa fa-linkedin-square icons grow"></i>
+              </a>
             </div>
           </nav>
-          <!-- <nav>
-            <button class="close-button"><span>x</span></button>
-            <button class="email-icon"><span>email</span></button>
-            <ul class="menu">
-              <li class="menu-item">
+          <div id="home-menu" class="menu">
+            <ul class="nav-list">
+              <li class="menu-item grow">
                 <a href="index.html">Home</a>
               </li>
-              <li class="menu-item">
+              <li class="menu-item grow">
                 <a href="about.html">About</a>
               </li>
-              <li class="menu-item">
+              <li class="menu-item grow">
                 <a href="projects.html">Projects</a>
               </li>
-              <li class="menu-item">
+              <li class="menu-item grow">
                 <a href="blog.html">Blog</a>
               </li>
             </ul>
-          </nav> -->
+          </div>
           <div class="content-container">
             <section class="main-content">
               <div class="intro-content">
@@ -54,9 +63,7 @@
                   my name is <span class="underline-name">Julia</span>
                 </h1>
                 <p id="top-paragraph" class="intro-paragraph">
-                  I'm a former professional actor turned
-                  <span class="bold-dev">Software Dev</span>
-                  .
+                  I'm a former professional actor turned Software Dev.
                 </p>
                 <p class="intro-paragraph">
                   My passion is to build unique user experiences
@@ -80,5 +87,6 @@
         </footer>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>

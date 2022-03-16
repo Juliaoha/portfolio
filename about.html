@@ -22,30 +22,35 @@
       <div class="inner-container">
         <div>
           <nav class="about-bar">
-            <div><i class="fa fa-reorder icons"></i></div>
-            <div>
-              <i class="fa fa-github icons github-icon"></i>
-              <i class="fa fa-linkedin-square icons"></i>
+            <div class="hamburger">
+              <i class="fa fa-reorder menuIcon icons menuIcon"></i>
+              <i class="fa fa-times icons close closeIcon"></i>
+            </div>
+            <div class="icons-container">
+              <a href="https://github.com/Juliaoha">
+                <i class="fa fa-github icons github-icon grow"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/julia-ohannessian/">
+                <i class="fa fa-linkedin-square icons grow"></i>
+              </a>
             </div>
           </nav>
-          <!-- <nav>
-      <button class="close-button"><span>x</span></button>
-      <button class="email-icon"><span>email</span></button>
-      <ul class="menu">
-        <li class="menu-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="menu-item">
-          <a href="about.html">About</a>
-        </li>
-        <li class="menu-item">
-          <a href="projects.html">Projects</a>
-        </li>
-        <li class="menu-item">
-          <a href=""blog.html>Blog</a>
-        </li>
-      </ul>
-    </nav> -->
+          <div id="about-menu" class="menu">
+            <ul class="nav-list">
+              <li class="menu-item grow">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="menu-item grow">
+                <a href="about.html">About</a>
+              </li>
+              <li class="menu-item grow">
+                <a href="projects.html">Projects</a>
+              </li>
+              <li class="menu-item grow">
+                <a href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
           <div class="content-container">
             <section>
               <div class="main-content">
@@ -55,7 +60,12 @@
                 <p class="intro-paragraph">
                   I was born in Sydney, Australia. I went to NIDA and became a
                   professional actor. If you don't believe me
-                  <span class="bold-dev">click here</span>.
+                  <a
+                    class="bold-dev"
+                    href="./files/Julia Ohannessian Acting Resume.pdf"
+                    download
+                    >click here
+                  </a>
                 </p>
                 <p class="intro-paragraph">
                   Now, I'm a Software Developer. I believe in the power of user
@@ -81,5 +91,6 @@
         </footer>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>

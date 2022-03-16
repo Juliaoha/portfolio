@@ -22,44 +22,67 @@
       <div class="inner-container">
         <div>
           <nav class="projects-bar">
-            <div><i class="fa fa-reorder icons"></i></div>
-            <div>
-              <i class="fa fa-github icons github-icon"></i>
-              <i class="fa fa-linkedin-square icons"></i>
+            <div class="hamburger">
+              <i class="fa fa-reorder menuIcon icons menuIcon"></i>
+              <i class="fa fa-times icons close closeIcon"></i>
+            </div>
+            <div class="icons-container">
+              <a href="https://github.com/Juliaoha">
+                <i class="fa fa-github icons github-icon grow"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/julia-ohannessian/">
+                <i class="fa fa-linkedin-square icons grow"></i>
+              </a>
             </div>
           </nav>
-          <!-- <nav>
-      <button class="close-button"><span>x</span></button>
-      <button class="email-icon"><span>email</span></button>
-      <ul class="menu">
-        <li class="menu-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="menu-item">
-          <a href="about.html">About</a>
-        </li>
-        <li class="menu-item">
-          <a href="projects.html">Projects</a>
-        </li>
-        <li class="menu-item">
-          <a href="blog.html">Blog</a>
-        </li>
-      </ul>
-    </nav> -->
+          <div id="projects-menu" class="menu">
+            <ul class="nav-list">
+              <li class="menu-item grow">
+                <a href="index.html">Home</a>
+              </li>
+              <li class="menu-item grow">
+                <a href="about.html">About</a>
+              </li>
+              <li class="menu-item grow">
+                <a href="projects.html">Projects</a>
+              </li>
+              <li class="menu-item grow">
+                <a href="blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
           <div class="content-container">
             <section>
               <div class="main-content">
                 <h1 class="intro-title">
                   Pro<span class="underline-jects">jects</span>
                 </h1>
-                <p class="intro-paragraph">
-                  Vestibulum ac nulla lobortis, posuere leo eget, scelerisque
-                  velit. Nullam lobortis at magna at viverra. Fusce et ex et dui
-                  fermentum molestie non in libero. Fusce sit amet lorem urna.
-                  Cras ex justo, posuere in convallis in, commodo et massa. Sed
-                  feugiat pharetra sapien, sit amet sollicitudin eros aliquam
-                  eu. Donec quis neque quam.
-                </p>
+                <section class="projects-grid">
+                  <button
+                    id="project-1-button-colour"
+                    class="project-button project-end"
+                  >
+                    Project 1
+                  </button>
+                  <button
+                    id="project-2-button-colour"
+                    class="project-button project-start"
+                  >
+                    Project 2
+                  </button>
+                  <button
+                    id="project-3-button-colour"
+                    class="project-button project-end"
+                  >
+                    Project 3
+                  </button>
+                  <button
+                    id="project-4-button-colour"
+                    class="project-button project-start"
+                  >
+                    Project 4
+                  </button>
+                </section>
                 <button
                   id="blog-button"
                   class="button"
@@ -76,5 +99,6 @@
         </footer>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
 </html>
