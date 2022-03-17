@@ -19,7 +19,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
   </head>
   <body>
     <div class="container">
@@ -27,12 +27,12 @@
         <div>
           <nav class="blog-bar">
             <div class="hamburger">
-              <i class="fa fa-reorder menuIcon icons menuIcon"></i>
+              <i class="fa fa-reorder icons menuIcon menuIcon"></i>
               <i class="fa fa-times icons close closeIcon"></i>
             </div>
             <div class="icons-container">
               <a href="https://github.com/Juliaoha">
-                <i class="fa fa-github icons github-icon grow"></i>
+                <i class="fa fa-github github-icon icons grow"></i>
               </a>
               <a href="https://www.linkedin.com/in/julia-ohannessian/">
                 <i class="fa fa-linkedin-square icons grow"></i>
@@ -42,7 +42,7 @@
           <div id="blog-menu" class="menu">
             <ul class="nav-list">
               <li class="menu-item grow">
-                <a href="index.html">Home</a>
+                <a href="../index.html">Home</a>
               </li>
               <li class="menu-item grow">
                 <a href="about.html">About</a>
@@ -55,32 +55,42 @@
               </li>
             </ul>
           </div>
-          <div class="content-container">
-            <section>
-              <div class="main-content">
-                <h1 class="intro-title">
-                  <span class="underline-blo">Blo</span>g
-                </h1>
-                <p class="intro-paragraph">
-                  Title 1 Published: 09/03/2022 Title 2 Published: 09/03/2022
-                  Title 3 Published: 09/03/2022 Title 4 Published: 09/03/2022
-                </p>
-                <button
-                  id="home-button"
-                  class="button"
-                  onclick="window.location.href='index.html'"
-                >
-                  Home
-                </button>
+          <section class="main-content">
+            <h1 class="intro-title">
+              <span class="underline blog-colored-underline">Blo</span>g
+            </h1>
+            <div class="blog-index">
+              <div class="blog-post">
+                <a href="blog1.html"><h3 class="title-blog">Title 1</h3></a>
+                <p>Published: 09/03/2022</p>
               </div>
-            </section>
-          </div>
+              <div class="blog-post">
+                <a href="blog2.html"><h3 class="title-blog">Title 2</h3></a>
+                <p>Published: 09/03/2022</p>
+              </div>
+              <div class="blog-post">
+                <a href="blog3.html"><h3 class="title-blog">Title 3</h3></a>
+                <p>Published: 09/03/2022</p>
+              </div>
+              <div class="blog-post">
+                <a href="blog4.html"><h3 class="title-blog">Title 4</h3></a>
+                <p>Published: 09/03/2022</p>
+              </div>
+            </div>
+            <button
+              id="home-button"
+              class="button"
+              onclick="window.location.href='../index.html'"
+            >
+              Home
+            </button>
+          </section>
         </div>
         <footer>
           <p class="copyright">© Julia Ohannessian 2022</p>
         </footer>
       </div>
     </div>
-    <script src="main.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>

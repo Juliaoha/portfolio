@@ -15,7 +15,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
   </head>
   <body>
     <div class="container">
@@ -24,11 +24,11 @@
           <nav class="projects-bar">
             <div class="hamburger">
               <i class="fa fa-reorder menuIcon icons menuIcon"></i>
-              <i class="fa fa-times icons close closeIcon"></i>
+              <i class="fa fa-times close icons closeIcon"></i>
             </div>
             <div class="icons-container">
               <a href="https://github.com/Juliaoha">
-                <i class="fa fa-github icons github-icon grow"></i>
+                <i class="fa fa-github github-icon icons grow"></i>
               </a>
               <a href="https://www.linkedin.com/in/julia-ohannessian/">
                 <i class="fa fa-linkedin-square icons grow"></i>
@@ -38,7 +38,7 @@
           <div id="projects-menu" class="menu">
             <ul class="nav-list">
               <li class="menu-item grow">
-                <a href="index.html">Home</a>
+                <a href="../index.html">Home</a>
               </li>
               <li class="menu-item grow">
                 <a href="about.html">About</a>
@@ -51,54 +51,44 @@
               </li>
             </ul>
           </div>
-          <div class="content-container">
-            <section>
-              <div class="main-content">
-                <h1 class="intro-title">
-                  Pro<span class="underline-jects">jects</span>
-                </h1>
-                <section class="projects-grid">
-                  <button
-                    id="project-1-button-colour"
-                    class="project-button project-end"
-                  >
-                    Project 1
-                  </button>
-                  <button
-                    id="project-2-button-colour"
-                    class="project-button project-start"
-                  >
-                    Project 2
-                  </button>
-                  <button
-                    id="project-3-button-colour"
-                    class="project-button project-end"
-                  >
-                    Project 3
-                  </button>
-                  <button
-                    id="project-4-button-colour"
-                    class="project-button project-start"
-                  >
-                    Project 4
-                  </button>
-                </section>
-                <button
-                  id="blog-button"
-                  class="button"
-                  onclick="window.location.href='blog.html'"
-                >
-                  Blog
-                </button>
-              </div>
+          <section class="main-content">
+            <h1 class="intro-title">
+              Pro<span class="underline projects-colored-underline">jects</span>
+            </h1>
+            <section class="projects-grid">
+              <button id="project-1-button" class="project-button project-end">
+                Project 1
+              </button>
+              <button
+                id="project-2-button"
+                class="project-button project-start"
+              >
+                Project 2
+              </button>
+              <button id="project-3-button" class="project-button project-end">
+                Project 3
+              </button>
+              <button
+                id="project-4-button"
+                class="project-button project-start"
+              >
+                Project 4
+              </button>
             </section>
-          </div>
+            <button
+              id="blog-button"
+              class="button"
+              onclick="window.location.href='blog.html'"
+            >
+              Blog
+            </button>
+          </section>
         </div>
         <footer>
           <p class="copyright">© Julia Ohannessian 2022</p>
         </footer>
       </div>
     </div>
-    <script src="main.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>

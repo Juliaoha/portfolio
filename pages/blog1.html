@@ -10,72 +10,55 @@
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
     <title>Portfolio Julia Ohannessian</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="../style.css" />
   </head>
   <body>
     <div class="container">
       <div class="inner-container">
         <div>
-          <nav class="home-bar">
+          <nav class="blog-bar">
             <div class="hamburger">
               <i class="fa fa-reorder menuIcon icons menuIcon"></i>
-              <i class="fa fa-times icons close closeIcon"></i>
+              <i class="fa fa-times close icons closeIcon"></i>
             </div>
             <div class="icons-container">
               <a href="https://github.com/Juliaoha">
-                <i class="fa fa-github icons github-icon grow"></i>
+                <i class="fa fa-github github-icon icons grow"></i>
               </a>
               <a href="https://www.linkedin.com/in/julia-ohannessian/">
                 <i class="fa fa-linkedin-square icons grow"></i>
               </a>
             </div>
           </nav>
-          <div id="home-menu" class="menu">
+          <div id="blog-menu" class="menu">
             <ul class="nav-list">
-              <li class="grow">
-                <a href="index.html">Home</a>
+              <li class="menu-item grow">
+                <a href="../index.html">Home</a>
               </li>
-              <li class="grow">
-                <a href="./pages/about.html">About</a>
+              <li class="menu-item grow">
+                <a href="about.html">About</a>
               </li>
-              <li class="grow">
-                <a href="./pages/projects.html">Projects</a>
+              <li class="menu-item grow">
+                <a href="projects.html">Projects</a>
               </li>
-              <li class="grow">
-                <a href="./pages/blog.html">Blog</a>
+              <li class="menu-item grow">
+                <a href="blog.html">Blog</a>
               </li>
             </ul>
           </div>
           <section class="main-content">
-            <h1 class="intro-title">Hello,</h1>
-            <h1 class="intro-title">
-              my name is
-              <span class="underline home-colored-underline">Julia</span>
-            </h1>
-            <p id="top-paragraph" class="intro-paragraph">
-              I'm a former professional actor turned Software Dev.
-            </p>
-            <p class="intro-paragraph">
-              My passion is to build unique user experiences
-            </p>
-            <p class="intro-paragraph">
-              And to make tech more accessible for all.
-            </p>
+            <h1 class="intro-title">Blog 1</h1>
             <button
-              id="about-button"
+              id="back-to-blog-button"
               class="button"
-              onclick="window.location.href='./pages/about.html'"
+              onclick="window.location.href='blog.html'"
             >
-              About
+              Back
             </button>
           </section>
         </div>
@@ -84,6 +67,6 @@
         </footer>
       </div>
     </div>
-    <script src="./js/main.js"></script>
+    <script src="../js/main.js"></script>
   </body>
 </html>
