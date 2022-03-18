@@ -276,12 +276,16 @@ footer {
 
 /* skills */
 
+.skills-content {
+  margin-top: 40px;
+}
+
 .skill-icons {
   display: grid;
   grid-template-columns: auto auto auto;
   justify-items: center;
   font-size: 50px;
-  margin: 20px;
+  margin: 33px;
   grid-row-gap: 15px;
 }
 
