@@ -139,13 +139,20 @@ footer {
 
 /* colors */
 
-#project-2-button-colour,
-#blog-menu,
-#blog-button,
-.blog-bar {
+#skills-button,
+#skills-menu,
+.skills-bar {
+  background-color: #f8f1c7;
+}
+
+#projects-menu,
+#project-button,
+#project-2-button,
+.projects-bar {
   background-color: #e2ece9;
 }
 
+#home-button,
 #about-button,
 #about-menu,
 #project-3-button,
@@ -153,11 +160,13 @@ footer {
   background-color: #dfe7fd;
 }
 
-#home-button,
+#blog-menu,
+#blog-button,
 #home-menu,
 #back-to-blog-button,
-#project-4-button-colour,
-.home-bar {
+#project-4-button,
+.home-bar,
+.blog-bar {
   background-color: #fde2e4;
 }
 
@@ -218,6 +227,10 @@ footer {
   text-decoration-color: #dfe7fd;
 }
 
+.skills-colored-underline {
+  text-decoration-color: #f8f1c7;
+}
+
 .projects-colored-underline {
   text-decoration-color: #f8f1c7;
 }
@@ -250,17 +263,12 @@ footer {
   justify-self: end;
 }
 
-#projects-button,
-.projects-bar {
+#projects-button {
   background-color: rgba(248, 241, 199, 0.55);
 }
 
 #project-1-button {
   background-color: #f8f1c7;
-}
-
-#projects-menu {
-  background-color: rgba(248, 241, 199);
 }
 
 /* blog */
