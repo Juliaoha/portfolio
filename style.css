@@ -290,3 +290,11 @@ footer {
 .blog-date {
   font-size: 13px;
 }
+
+.skill-icons {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  font-size: 50px;
+  margin: 30px;
+}
