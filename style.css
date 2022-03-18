@@ -286,3 +286,7 @@ footer {
   flex-direction: column;
   align-items: center;
 }
+
+.blog-date {
+  font-size: 13px;
+}
