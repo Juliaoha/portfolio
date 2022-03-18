@@ -139,35 +139,20 @@ footer {
 
 /* colors */
 
-#skills-button,
-#skills-menu,
-.skills-bar {
-  background-color: #f8f1c7;
+.pink {
+  background-color: #fde2e4;
 }
 
-#projects-menu,
-#project-button,
-#project-2-button,
-.projects-bar {
-  background-color: #e2ece9;
-}
-
-#home-button,
-#about-button,
-#about-menu,
-#project-3-button,
-.about-bar {
+.blue {
   background-color: #dfe7fd;
 }
 
-#blog-menu,
-#blog-button,
-#home-menu,
-#back-to-blog-button,
-#project-4-button,
-.home-bar,
-.blog-bar {
-  background-color: #fde2e4;
+.yellow {
+  background-color: #f8f1c7;
+}
+
+.green {
+  background-color: #e2ece9;
 }
 
 /* icons  */
@@ -267,10 +252,6 @@ footer {
   background-color: rgba(248, 241, 199, 0.55);
 }
 
-#project-1-button {
-  background-color: #f8f1c7;
-}
-
 /* blog */
 
 .title-blog {
@@ -291,6 +272,8 @@ footer {
   font-size: 13px;
 }
 
+/* skills */
+
 .skill-icons {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -298,4 +281,20 @@ footer {
   font-size: 50px;
   margin: 33px;
   grid-row-gap: 15px;
+}
+
+.pink-icon {
+  color: #fcd0d3;
+}
+
+.blue-icon {
+  color: #cad7fc;
+}
+
+.yellow-icon {
+  color: #fff1a2;
+}
+
+.green-icon {
+  color: #c6ebe0;
 }
