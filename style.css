@@ -281,7 +281,7 @@ footer {
   grid-template-columns: auto auto auto;
   justify-items: center;
   font-size: 50px;
-  margin: 33px;
+  margin: 20px;
   grid-row-gap: 15px;
 }
 
