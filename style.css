@@ -46,10 +46,7 @@ nav {
   margin-right: 10px;
   display: flex;
   justify-content: space-between;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 5px;
+  padding: 5px 10px;
 }
 
 footer {
@@ -129,14 +126,6 @@ footer {
   font-weight: bold;
 }
 
-.copyright {
-  width: 100%;
-  color: black;
-  font-size: 12px;
-  text-align: center;
-  bottom: 0;
-}
-
 /* colors */
 
 .pink {
@@ -185,9 +174,7 @@ footer {
 /* button */
 
 .button {
-  padding: 5px;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 5px 25px;
   border: 2px solid black;
   font-size: 14px;
   color: black;
@@ -226,6 +213,10 @@ footer {
 
 /* projects */
 
+#projects-content {
+  margin-top: 60px;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: auto auto;
@@ -255,6 +246,10 @@ footer {
 }
 
 /* blog */
+
+#blog-content {
+  margin-top: 60px;
+}
 
 .title-blog {
   transition: all 0.2s ease-in-out;
@@ -303,4 +298,113 @@ footer {
 
 .green-icon {
   color: #c6ebe0;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    padding-top: 190px;
+  }
+  .nav-list {
+    height: 350px;
+    font-size: 40px;
+  }
+
+  .main-content {
+    margin-top: 170px;
+  }
+
+  .intro-title {
+    font-size: 45px;
+  }
+
+  .intro-paragraph {
+    font-size: 20px;
+    width: 70%;
+  }
+
+  .top-paragraph {
+    margin-top: 50px;
+  }
+
+  .icons {
+    font-size: 30px;
+  }
+
+  .button {
+    width: 110px;
+    font-size: 18px;
+    margin-top: 50px;
+  }
+
+  .skill-icons {
+    margin: 60px 33px;
+  }
+
+  .skills-content {
+    margin-top: 100px;
+  }
+
+  #projects-content {
+    margin-top: 100px;
+  }
+
+  .project-button {
+    width: 150px;
+    height: 130px;
+    font-size: 18px;
+  }
+
+  #blog-content {
+    margin-top: 100px;
+  }
+
+  .title-blog {
+    font-size: 22px;
+  }
+}
+
+@media screen and (min-width: 968px) {
+  .skill-icons {
+    font-size: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .inner-container {
+    height: 88%;
+    width: 89%;
+  }
+
+  .intro-paragraph {
+    width: 47%;
+  }
+
+  .skill-icons {
+    font-size: 70px;
+    margin: 60px 150px;
+  }
+
+  .title-blog {
+    font-size: 25px;
+  }
+
+  .project-button {
+    width: 200px;
+    height: 150px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .intro-title {
+    font-size: 50px;
+  }
+
+  .intro-paragraph {
+    font-size: 22px;
+  }
+
+  .project-button {
+    width: 250px;
+    height: 180px;
+  }
 }
