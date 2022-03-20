@@ -53,6 +53,10 @@ I always find that if I have an idea of colour, which of course can change throu
 
 <img src="./docs/pastel-image2-2022.png">
 
+I stumbled across this image and decided to use it as my background. It was too busy and clashed with my orginal plan so I decided to use it as a splash of border colour.
+
+<img src="./docs/background-image2022.png">
+
 ### Structure and Sitemap
 
 I realised pretty quickly how important it was to plan when it comes to building a website. Without structure it's very easy to get lost in a land of endless ideas. A simple plan can soon become a crazy mess. It was much easier to create my website having a clear structure. I am glad I used Figma for planning and designing as I was able to chop and change until I created something that would transition smoothly to HTML and CSS.
