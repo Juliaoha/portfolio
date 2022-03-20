@@ -21,6 +21,7 @@ My Github Repository: https://github.com/Juliaoha/portfolio
   - [Colour](#colour)
 - [Functionality & Features](#functionality-and-features)
 - [Tech Stack](#tech-stack)
+- [Image References](#image-references)
 
 ## Purpose
 
@@ -144,3 +145,10 @@ The was that every page would lead to the next through a simple click of a butto
 [Google Fonts](https://fonts.google.com/) A website full of fonts. I used Quicksand for my website.
 
 [Figma](https://www.figma.com/) Is a vector graphics editor and prototyping tool. I used Figma to do create my website from scratch, do my wireframes and prototypes.
+
+### Image references:
+
+- Unsplash: https://unsplash.com/s/photos/pastel
+- Murals Wallpaper: https://www.muralswallpaper.co.uk/app/uploads/Block-Pattern-Geometric-Pastel-Wallpaper-Mural-room.jpg
+- Figma Images: Personal Source
+- Vecteezy: https://www.vecteezy.com/free-vector/pastel-background
