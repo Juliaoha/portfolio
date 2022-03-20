@@ -6,7 +6,7 @@ Welcome to my portfolio website. This is our Term 1 Assessment written in HTML a
 
 I really enjoyed creating my website from the ground up. I learnt a lot of cool tricks during this assignment and really pushed myself to try and do the things that challenged me. I hope that it reflects in my work and shows the skills I have gained along the way in HTML and CSS, but also provides a little glimpse into my personality. Although the website is not exactly what I had imagined it to be, I feel that I have achieved a great amount considering where I started from and the time restraints. Please find a link to my portfolio and github repo below:
 
-My Portfolio URL: https://elated-khorana-6658ee.netlify.app
+My Portfolio URL: http://www.juliaoha.com/
 
 My Github Repository: https://github.com/Juliaoha/portfolio
 
